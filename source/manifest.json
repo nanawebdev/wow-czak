@@ -1,0 +1,9 @@
+{
+  "name" : "Autorska pracownia projectowa",
+  "short_name": "Wowczak",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background-color": "fffffff",
+  "icons": []
+}

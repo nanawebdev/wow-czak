@@ -1,0 +1,52 @@
+// Here is a scope of special classes for CMS
+
+.simple-p-tag {
+  font-size: 16px;
+  line-height: 18px;
+  margin: 16px 0;
+  color: $basic-black;
+}
+
+// For pages like "Ewa Wowczak"
+.highlight-text {
+  color: $primary-red;
+
+  & p {
+    margin: 4px 0;
+  }
+}
+
+.strong-p-tag {
+  font-weight: 600;
+}
+
+.simple-ul-tag {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  padding: 0;
+
+  & li {
+    list-style: none;
+    padding: 8px 0;
+    padding-left: 30px;
+    position: relative;
+  }
+
+  & li::before {
+    content: "";
+    width: 17px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-image: url("../img/svg/list-marker.svg");
+    background-position: 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.simple-ul-tag + .simple-ul-tag {
+  margin-left: 24px;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wowczak</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="./fonts/open-sans-regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="./fonts/open-sans-regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header">
+
+        <a href="index.html">
+          <img src="./img/logo.png" width="205" height="95" alt="logo">
+        </a>
+
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="index.html">Strona główna</a>
+            </li>
+            <li class="main-navigation__trigger">
+              <a href="#">Pracownia</a>
+              <ul class="main-navigation__submenu">
+                <li>
+                  <a href="#">O nas</a>
+                </li>
+                <li>
+                  <a href="personal-page.html">Ewa Wowczak</a>
+                </li>
+                <li>
+                  <a href="#">Jerzy Wowczak</a>
+                </li>
+                <li>
+                  <a href="#">Zespół projektowy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-navigation__trigger">
+              <a href="#">Projekty</a>
+              <ul class="main-navigation__submenu">
+                <li>
+                  <a href="#">Architektura</a>
+                </li>
+                <li>
+                  <a href="#">Architektura krajobrazu</a>
+                </li>
+                <li>
+                  <a href="#">Planowanie przestrzenne</a>
+                </li>
+                <li>
+                  <a href="#">Koncepcje</a>
+                </li>
+                <li>
+                  <a href="#">Konkursy</a>
+                </li>
+                <li>
+                  <a href="#">Lista projektów</a>
+                </li>
+              </ul>
+            </li>
+            <li class="main-navigation__trigger">
+              <a href="#">Publikacje</a>
+              <ul class="main-navigation__submenu">
+                <li>
+                  <a href="#">Monografie</a>
+                </li>
+                <li>
+                  <a href="#">Rozdziały w monografiach</a>
+                </li>
+                <li>
+                  <a href="#">Artykuły</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="contacts.html">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header__open-menu js-open-mobmenu">
+          <svg class="burger" width="50" height="50">
+            <use xlink:href="./img/sprite_auto.svg#menu"></use>
+          </svg>
+        </button>
+      </header>
+
+      <main class="main">
+
+        <p class="simple-p-tag">Działamy od 1990 roku w Krakowie.</p>
+        <p class="simple-p-tag">Nasza działalność obejmuje: projekty architektoniczne, dokumentacje pełnobranżowe w
+          zakresie projektów budowlanych, wykonawczych.</p>
+        <p class="simple-p-tag">
+          Na liście naszych realizacji można znaleźć obiekty użyteczności publicznej, dworce kolejowe, gmachy uczelni,
+          audytoria i sale wykładowe, huty szkła, hale produkcyjne, parkingi podziemne, sale sportowe, baseny, hotele,
+          zespoły klasztorne, a także domy i osiedla mieszkaniowe, rezydencje.
+
+        </p>
+        <p class="simple-p-tag">
+          Od 2000 roku zakres działań pracowni poszerzył się o zagadnienia związane z planowaniem przestrzennym. W tej
+          dziedzinie możemy się pochwalić studiami krajobrazowymi szczególnie dla obszarów historycznych, studiami
+          uwarunkowań i kierunków zagospodarowania przestrzennego, szeregiem miejscowych planów zagospodarowania
+          przestrzennego.
+
+        </p>
+        <p class="simple-p-tag">
+          Od 2005 roku działamy w zakresie architektury ogrodowej. Najbardziej prestiżowym osiągnięciem z zakresu
+          założeń ogrodowych jest zrealizowany projekt rewaloryzacji parku w Wilanowie.
+
+        </p>
+        <p class="simple-p-tag">
+          Zespół pracowni zdobywał nagrody i wyróżnienia w konkursach architektonicznych, pracujemy dla podmiotów
+          publicznych i prywatnych.
+
+        </p>
+      </main>
+
+    </div>
+
+    <footer class="footer">
+      <div class="mobile-menu footer__mobile-menu">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Strona główna</a>
+            </li>
+    
+            <li class="js-submenu-trigger mobile-menu__trigger">
+              <button type="button">
+                <span>Pracownia</span>
+                <svg class="arrow" width="20" height="20">
+                  <use xlink:href="./img/sprite_auto.svg#arrow"></use>
+                </svg>
+              </button>
+    
+              <ul class="mobile-menu__submenu">
+                <li>
+                  <a href="about.html">O nas</a>
+                </li>
+                <li>
+                  <a href="personal-page.html">Ewa Wowczak</a>
+                </li>
+                <li>
+                  <a href="#">Jerzy Wowczak</a>
+                </li>
+                <li>
+                  <a href="#">Zespół projektowy</a>
+                </li>
+              </ul>
+            </li>
+    
+            <li class="js-submenu-trigger mobile-menu__trigger">
+              <button type="button">
+                <span>Projekty</span>
+                <svg class="arrow" width="20" height="20">
+                  <use xlink:href="./img/sprite_auto.svg#arrow"></use>
+                </svg>
+              </button>
+              <ul class="mobile-menu__submenu">
+                <li>
+                  <a href="project-page.html">Architektura</a>
+                </li>
+                <li>
+                  <a href="#">Architektura krajobrazu</a>
+                </li>
+                <li>
+                  <a href="#">Planowanie przestrzenne</a>
+                </li>
+                <li>
+                  <a href="#">Koncepcje</a>
+                </li>
+                <li>
+                  <a href="#">Konkursy</a>
+                </li>
+                <li>
+                  <a href="#">Lista projektów</a>
+                </li>
+              </ul>
+            </li>
+    
+            <li>
+              <a href="contacts.html">Kontakt</a>
+            </li>
+    
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__copy">© 2012 APP Jerzy Wowczak</div>
+
+      <div class="footer__contacts contacts">
+        <div>
+          <div class="contacts__title">
+            <p>AUTORSKA PRACOWNIA PROJEKTOWA</p>
+            <p>JERZY WOWCZAK</p>
+          </div>
+
+          <div class="contacts__address">
+            <p>Bieżanowska 46</p>
+            <p>30-812 Kraków</p>
+          </div>
+
+        </div>
+
+        <div class="contacts__wrapper contacts__wrapper--contacts">
+          <a href="mailto:app.wowczak@gmail.com">app.wowczak@gmail.com</a>
+          <a href="tel:+48508377526">+48 508 377 526</a>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+
+  <div class="mobile-menu js-mobile-menu">
+    <button type="button" class="js-close-button mobile-menu__cross">
+      <svg class="cross" width="50" height="50">
+        <use xlink:href="./img/sprite_auto.svg#cross"></use>
+      </svg>
+    </button>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Strona główna</a>
+        </li>
+
+        <li class="js-submenu-trigger mobile-menu__trigger">
+          <button type="button">
+            <span>Pracownia</span>
+            <svg class="arrow" width="20" height="20">
+              <use xlink:href="./img/sprite_auto.svg#arrow"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu__submenu">
+            <li>
+              <a href="about.html">O nas</a>
+            </li>
+            <li>
+              <a href="personal-page.html">Ewa Wowczak</a>
+            </li>
+            <li>
+              <a href="#">Jerzy Wowczak</a>
+            </li>
+            <li>
+              <a href="#">Zespół projektowy</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="js-submenu-trigger mobile-menu__trigger">
+          <button type="button">
+            <span>Projekty</span>
+            <svg class="arrow" width="20" height="20">
+              <use xlink:href="./img/sprite_auto.svg#arrow"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__submenu">
+            <li>
+              <a href="project-page.html">Architektura</a>
+            </li>
+            <li>
+              <a href="#">Architektura krajobrazu</a>
+            </li>
+            <li>
+              <a href="#">Planowanie przestrzenne</a>
+            </li>
+            <li>
+              <a href="#">Koncepcje</a>
+            </li>
+            <li>
+              <a href="#">Konkursy</a>
+            </li>
+            <li>
+              <a href="#">Lista projektów</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="contacts.html">Kontakt</a>
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

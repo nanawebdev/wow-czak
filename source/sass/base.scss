@@ -1,0 +1,99 @@
+@font-face {
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-display: swap;
+  src: url("./../fonts/open-sans-light.woff") format("woff"),
+    url("./../fonts/open-sans-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-display: swap;
+  src: url("./../fonts/open-sans-regular.woff") format("woff"),
+    url("./../fonts/open-sans-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-display: swap;
+  src: url("./../fonts/open-sans-semibold.woff") format("woff"),
+    url("./../fonts/open-sans-semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-display: swap;
+  src: url("./../fonts/open-sans-bold.woff") format("woff"),
+    url("./../fonts/open-sans-bold.woff2") format("woff2");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", "Courier", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: $basic-black;
+  padding-top: 15px;
+}
+
+button {
+  font-family: inherit;
+  font-size: inerit;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+
+.content {
+  flex: 1 0 auto;
+  background-image: url("../img/app.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 0 16px;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (min-width: $tablet-width) {
+  .main {
+    margin-top: 40px;
+  }
+}
